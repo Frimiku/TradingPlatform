@@ -1,0 +1,23 @@
+{
+  "id": "4697850",
+  "name": "TradingSystem",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1345932",
+      "name": "项目成员",
+      "font_class": "chengyuan",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "1001742",
+      "name": "收入",
+      "font_class": "shouru",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

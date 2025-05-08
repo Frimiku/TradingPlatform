@@ -1,0 +1,16 @@
+{
+  "id": "4697850",
+  "name": "TradingSystem",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1001742",
+      "name": "收入",
+      "font_class": "shouru",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

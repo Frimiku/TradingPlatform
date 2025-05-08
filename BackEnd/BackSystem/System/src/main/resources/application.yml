@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/tradingsystem?useSSL=true&useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: zhou13306250032
+      min-idle: 3
+      max-active: 8
+      max-wait: 10000
+      test-on-borrow: true
+      validation-query: select 1=1
+  redis:
+    expiration: 30
+    time-unit: m
+    database: 0
+    host: 192.168.229.131
+    port: 6379
+    password: zhou13306250032
+    lettuce:
+      pool:
+        min-idle: 3
+        max-idle: 5
+        max-active: 8
+        max-wait: 10
+
+mybatis-plus:
+  type-aliases-package: com.system.business.entity
+  mapper-locations: classpath*:mapping/*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    use-column-label: true

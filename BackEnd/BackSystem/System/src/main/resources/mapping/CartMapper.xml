@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.system.business.mapper.CartMapper">
+    <select id="page" resultType="com.system.business.entity.Cart">
+        select c.*, g.name as goodsName, g.img as goodsImg, g.price, u.name, u.username from cart c
+        left join shop_goods g on c.goods_id = g.id
+        left join user u on c.user_id = u.id
+        <where>
+            <if test="name != null and name != ''">
+                and g.name like concat('%', #{name}, '%')
+            </if>
+            <if test="role == '用户'">
+                and c.user_id = #{userId}
+            </if>
+        </where>
+    </select>
+</mapper>

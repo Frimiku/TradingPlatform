@@ -1,0 +1,44 @@
+{
+  "id": "4697850",
+  "name": "TradingSystem",
+  "font_family": "element-icons",
+  "css_prefix_text": "el-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "765220",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    },
+    {
+      "icon_id": "2301640",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "8094197",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "1345932",
+      "name": "项目成员",
+      "font_class": "chengyuan",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "1001742",
+      "name": "收入",
+      "font_class": "shouru",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}

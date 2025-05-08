@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.system.business.mapper.ShopOrdersMapper">
+
+    <select id="page" resultType="com.system.business.entity.ShopOrders">
+        select o.*, u.username as nickname, u.name as username
+        from shop_orders o
+        left join user u on o.user_id = u.id
+        <where>
+            <if test="name != ''">
+                and o.name like concat('%', #{name}, '%')
+            </if>
+            <if test="role == 'ROLE_USER'">
+                and o.user_id = #{userId}
+            </if>
+        </where>
+    </select>
+</mapper>
