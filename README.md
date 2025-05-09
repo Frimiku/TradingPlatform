@@ -1,0 +1,47 @@
+# TradingPlatform
+
+#### 介绍
+本项目是一个前后端分离的电商平台，采用Vue构建前端界面，Spring Boot搭建后端服务，并引入Redis提升系统性能。平台分为管理员和用户两大角色，管理员可通过后台系统进行商品添加、修改等操作，并实时记录操作日志，便于追踪与管理。用户界面则提供购物车、付费及商品选择等功能，确保用户能够流畅地完成购物流程。
+
+#### 软件架构
+前端：Vue3 + Element Plus + ECharts
+后端：Spring Boot + MyBatis Plus
+数据库：MySQL（业务数据） + Redis（缓存/会话管理）
+部署：Nginx（反向代理）
+##### 1. 登录注册模块
+![登录界面](https://foruda.gitee.com/images/1746714257470111210/11494835_13265925.png "屏幕截图 2025-05-08 222119.png")
+![注册界面](https://foruda.gitee.com/images/1746714275444715821/e9a0aec9_13265925.png "屏幕截图 2025-05-08 222131.png")
+
+##### 2. 管理员系统模块
+功能亮点：
+数据可视化看板（ECharts动态图表）
+商品全生命周期管理（上架/编辑/库存跟踪）
+订单状态实时监控与操作日志审计
+![管理员主界面](https://foruda.gitee.com/images/1746713931891703264/fc675545_13265925.png "屏幕截图 2025-05-07 220715.png")
+![商品管理界面](https://foruda.gitee.com/images/1746713976108412307/7c9109c8_13265925.png "屏幕截图 2025-05-08 214058.png")
+
+##### 1. 用户端模块
+功能亮点：
+JWT令牌无状态登录认证
+购物车实时同步（Redis缓存保障高性能）
+订单全流程追踪（待支付/发货中/已完成）
+![用户主界面](https://foruda.gitee.com/images/1746714128202524158/d69271b4_13265925.png "屏幕截图 2025-05-08 222148.png")
+![购物车界面](https://foruda.gitee.com/images/1746714175616198846/9bf17a65_13265925.png "屏幕截图 2025-05-07 221050.png")
+![订单界面](https://foruda.gitee.com/images/1746714202039558235/66ad3fdc_13265925.png "屏幕截图 2025-05-07 221058.png")
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
+
+#### 特技
+
+1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
+3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
+4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
+5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
+6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
