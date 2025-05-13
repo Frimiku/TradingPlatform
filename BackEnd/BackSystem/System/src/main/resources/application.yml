@@ -4,7 +4,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://localhost:3306/tradingsystem?useSSL=true&useUnicode=true&characterEncoding=utf-8
       username: root
-      password: zhou13306250032
+      password: 远程密码
       min-idle: 3
       max-active: 8
       max-wait: 10000
@@ -16,7 +16,7 @@ spring:
     database: 0
     host: 192.168.229.131
     port: 6379
-    password: zhou13306250032
+    password: 远程密码
     lettuce:
       pool:
         min-idle: 3
