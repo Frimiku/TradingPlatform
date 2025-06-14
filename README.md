@@ -11,20 +11,11 @@ This project is a front-end and back-end separated e-commerce platform. The fron
 数据库：MySQL（业务数据） + Redis（缓存/会话管理）
 部署：Nginx（反向代理）
 
-Front-end: Vue3 + Element Plus + ECharts
-Back-end: Spring Boot + MyBatis Plus
-Database: MySQL (business data) + Redis (cache/session management)
-Deployment: Nginx (reverse proxy)
-
 ##### 1. 管理员系统模块
 功能亮点：
 数据可视化看板（ECharts动态图表）
 商品全生命周期管理（上架/编辑/库存跟踪）
 订单状态实时监控与操作日志审计
-
-Data visualization dashboard (ECharts dynamic charts)
-Full-life cycle management of products (listing/editing/inventory tracking)
-Real-time order status monitoring and operation log auditing
 ![管理员主界面](https://foruda.gitee.com/images/1746713931891703264/fc675545_13265925.png "屏幕截图 2025-05-07 220715.png")
 ![商品管理界面](https://foruda.gitee.com/images/1746713976108412307/7c9109c8_13265925.png "屏幕截图 2025-05-08 214058.png")
 
@@ -33,9 +24,5 @@ Real-time order status monitoring and operation log auditing
 JWT令牌无状态登录认证
 购物车实时同步（Redis缓存保障高性能）
 订单全流程追踪（待支付/发货中/已完成）
-
-JWT token stateless login authentication
-Real-time synchronization of shopping cart (Redis cache ensures high performance)
-Full-process order tracking (to be paid/shipping/completed)
 ![用户主界面](https://foruda.gitee.com/images/1746714128202524158/d69271b4_13265925.png "屏幕截图 2025-05-08 222148.png")
 ![购物车界面](https://foruda.gitee.com/images/1746714175616198846/9bf17a65_13265925.png "屏幕截图 2025-05-07 221050.png")
