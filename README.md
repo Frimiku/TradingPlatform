@@ -2,6 +2,7 @@
 
 #### 介绍
 本项目是一个前后端分离的电商平台，采用Vue构建前端界面，Spring Boot搭建后端服务，并引入Redis提升系统性能。平台分为管理员和用户两大角色，管理员可通过后台系统进行商品添加、修改等操作，并实时记录操作日志，便于追踪与管理。用户界面则提供购物车、付费及商品选择等功能，确保用户能够流畅地完成购物流程。
+
 This project is a front-end and back-end separated e-commerce platform. The front-end interface is built with Vue, the back-end service is constructed with Spring Boot, and Redis is introduced to improve system performance. The platform is divided into two major roles: administrators and users. Administrators can add, modify and other operations on commodities through the background system, and record operation logs in real time for easy tracking and management. The user interface provides functions such as shopping cart, payment and commodity selection to ensure that users can complete the shopping process smoothly.
 
 #### 软件架构
