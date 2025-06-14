@@ -25,5 +25,5 @@ This project is a front-end and back-end separated e-commerce platform. The fron
 JWT令牌无状态登录认证
 购物车实时同步（Redis缓存保障高性能）
 订单全流程追踪（待支付/发货中/已完成）
-![用户主界面](https://foruda.gitee.com/images/1746714128202524158/d69271b4_13265925.png "屏幕截图 2025-05-08 222148.png")
-![购物车界面](https://foruda.gitee.com/images/1746714175616198846/9bf17a65_13265925.png "屏幕截图 2025-05-07 221050.png")
+![用户主界面](https://cdn.jsdelivr.net/gh/Frimiku/picture_cloud/Trading2.png)
+![购物车界面](https://cdn.jsdelivr.net/gh/Frimiku/picture_cloud/Trading3.png)
