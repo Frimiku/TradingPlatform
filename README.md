@@ -17,7 +17,8 @@ This project is a front-end and back-end separated e-commerce platform. The fron
 商品全生命周期管理（上架/编辑/库存跟踪）
 订单状态实时监控与操作日志审计
 ![管理员主界面](https://foruda.gitee.com/images/1746713931891703264/fc675545_13265925.png "屏幕截图 2025-05-07 220715.png")
-![商品管理界面](https://foruda.gitee.com/images/1746713976108412307/7c9109c8_13265925.png "屏幕截图 2025-05-08 214058.png")
+![管理员子界面](https://cdn.jsdelivr.net/gh/Frimiku/picture_cloud/trading1.png)
+
 
 ##### 2. 用户端模块
 功能亮点：
